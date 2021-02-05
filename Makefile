@@ -11,3 +11,6 @@ execute: exec
 
 clean:
 	rm *.o exec
+
+install:
+	sudo apt-get install make gcc
